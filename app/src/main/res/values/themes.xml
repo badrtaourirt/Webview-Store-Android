@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Themeapp" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+     <style name="Themeapp.NoActionBar">
+            <item name="android:windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+    <style name="ActivityTransition">
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+</resources>
